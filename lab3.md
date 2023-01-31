@@ -1,5 +1,10 @@
 **Lab 3**  
+###Part 1
 ***StringServer***
+
+![StringServerCode](StringServer.png)
+
+
 
 
 
