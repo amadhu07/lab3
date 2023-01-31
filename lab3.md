@@ -21,7 +21,7 @@
 
 
 1.  
-'''
+```
 public void testReverse2InPlace(){
 
     int[]input1 = {1,2,3,4,5};
@@ -30,11 +30,11 @@ public void testReverse2InPlace(){
 
 
  }
- '''
+```
  
  
 2.  
-'''
+```
 public void testReverse2InPlace(){
 
     int[]input1 = {3};
@@ -43,7 +43,7 @@ public void testReverse2InPlace(){
 
 
  }
- '''
+```
   
 
 
