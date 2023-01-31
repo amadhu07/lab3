@@ -21,7 +21,7 @@
 
 
 1.  
-'
+'''
 public void testReverse2InPlace(){
 
     int[]input1 = {1,2,3,4,5};
@@ -30,21 +30,21 @@ public void testReverse2InPlace(){
 
 
  }
- '
- ![Symp1](symp1.png)
+ '''
  
  
 2.  
-'public void testReverse2InPlace(){
+'''
+public void testReverse2InPlace(){
 
-    int[]input1 = {1,2,3,4,5};
+    int[]input1 = {3};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{5,4,3,2,1}, input1);
 
 
- }'
+ }
+ '''
   
-  ![Symp2](symp2.png)
 
 
 
