@@ -10,7 +10,7 @@
 
 
  }'
- [Symp1](sympq.png)
+ ![Symp1](symp1.png)
  
  
 2.  
@@ -23,7 +23,7 @@
 
  }'
   
-  [Symp2](symp.png)
+  ![Symp2](symp2.png)
 
 
 
