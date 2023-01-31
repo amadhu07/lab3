@@ -1,5 +1,6 @@
 **Lab 3**
 
+
 1.  
 'public void testReverse2InPlace(){
 
@@ -9,6 +10,7 @@
 
 
  }'
+ [Symp1](sympq.png)
  
  
 2.  
@@ -21,6 +23,7 @@
 
  }'
   
+  [Symp2](symp.png)
 
 
 
