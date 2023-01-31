@@ -44,6 +44,8 @@ public void testReverse2InPlace(){
 
  }
 ```
+Symptoms
+![junitoutput](junitoutputs.png)
   
 
 
