@@ -46,6 +46,35 @@ public void testReverse2InPlace(){
 ```
 Symptoms
 ![junitoutput](junitoutputs.png)
+
+Code Before:
+```
+static void reverseInPlace(int[] arr) {
+
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }  
+}
+```
+
+Code After:
+```
+static void reverseInPlace(int[] arr) {
+
+    int newArr[] = new int [arr.length];
+    int j = arr.length;
+    for(int i = 0; i < arr.length; i += 1) {
+      //arr[i] = arr[arr.length - i - 1];
+      newArr[j-1] = arr[i];
+      j--;
+
+    }
+    
+    for(int i = 0; i<arr.length; i++){
+      arr[i]=newArr[i];
+
+    }
+}
   
 
 
