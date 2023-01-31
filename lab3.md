@@ -64,10 +64,8 @@ static void reverseInPlace(int[] arr) {
     int newArr[] = new int [arr.length];
     int j = arr.length;
     for(int i = 0; i < arr.length; i += 1) {
-      //arr[i] = arr[arr.length - i - 1];
       newArr[j-1] = arr[i];
       j--;
-
     }
     
     for(int i = 0; i<arr.length; i++){
